@@ -1,0 +1,30 @@
+The attached dataset has deidentified information from a pilot phase of a clinical trial.  The relevant variables are as follows:
+
+admittoenroll: The time (in days) between hospital admission and enrolling in the clinical trial
+akistage: the stage of acute kidney injury at the time of enrollment (can be 0, 1, 2, or 3)
+akitoenroll: the time (in hours) between acute kidney injury and enrollment
+alert: the randomization variable.  1=alert, 0=control
+disch_disposition: the outcome of the hospitalization
+enrollcreat: the creatinine level at the time of enrollment. Creatinine is a measure of kidney function with higher values indicating WORSE function
+enrolltime: the date and time the patient was enrolled in the study
+id: the ID variable for the patient
+los: the hospital length of stay
+maxakistage: the highest stage of acute kidney injury achieved after enrollment
+maxcreatpostenroll: the highest creatinine achieved after enrollment
+totalalertspt: the number of alerts the patient received
+
+
+Looking at this data, do your best to answer the following questions.
+
+1. How many individuals were assigned to each randomization group?
+
+2. How would you go about comparing the creatinine level at enrollment across the two groups?  Are they different?
+
+3. How would you go about comparing the maximum achieved creatinine level after enrollment across the two groups?  Are they different?
+
+4. How does the length of stay compare between the two intervention groups?  How would you go about comparing these outcomes?
+
+5. What about inpatient death? What are the findings there?
+
+6. Are there any particular outliers with regards to the time between acute kidney injury and trial enrollment?  How would you identify them?
+
